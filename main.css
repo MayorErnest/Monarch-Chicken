@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
 
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 body {
   background: #2a2727;
   color: #ffffff;
@@ -11,13 +17,19 @@ a {
   color: #b4a195;
 }
 
+section h3 {
+  text-align: center;
+  padding-top: 60px;
+  font-size: 1.65rem;
+}
+
 .active {
   color: #ffffff;
 }
 
 .first-section {
   background: #2a2727;
-  max-height: 100vh;
+  min-height: 100vh;
 }
 
 .first-section > div {
@@ -62,10 +74,36 @@ a {
 .first-section button {
   margin-left: 100px;
 }
+
+.about-section {
+  background: #ffffff;
+  color: #ee0909;
+  height: 500px;
+}
+
+.about-section article > *:first-child {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 50%;
+}
+
+.about-section article > *:nth-child(2) {
+  align-self: flex-start;
+  width: 40%;
+  margin: auto 0;
+  color: #2a2727;
+}
+
+.about-section .flex > div > *:nth-child(2) {
+  position: relative;
+  top: -230px;
+}
+
 /*UTILITIES*/
 
 .container {
-  max-width: 1100px;
+  max-width: 1180px;
   margin: 0 auto;
   overflow: auto;
   padding: 0 40px;
