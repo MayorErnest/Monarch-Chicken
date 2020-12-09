@@ -7,8 +7,8 @@
 }
 
 body {
-  background: #2a2727;
-  color: #ffffff;
+  background: #ffffff;
+  color: #2a2727;
   font-family: "Lato", sans-serif;
 }
 
@@ -21,6 +21,12 @@ section h3 {
   text-align: center;
   padding-top: 60px;
   font-size: 1.65rem;
+  color: #ee0909;
+}
+
+section p {
+  text-align: center;
+  margin: 30px 0;
 }
 
 .active {
@@ -34,6 +40,10 @@ section h3 {
 
 .first-section > div {
   margin-top: 80px;
+}
+
+.first-section h1 {
+  color: #ffffff;
 }
 
 .first-section ul {
@@ -72,12 +82,11 @@ section h3 {
 }
 
 .first-section button {
-  margin-left: 100px;
+  margin-left: 200px;
 }
 
 .about-section {
   background: #ffffff;
-  color: #ee0909;
   height: 500px;
 }
 
@@ -100,6 +109,14 @@ section h3 {
   top: -230px;
 }
 
+.categories-section {
+  margin-top: 190px;
+  padding-bottom: 80px;
+}
+
+.categories-section .flex {
+  justify-content: center;
+}
 /*UTILITIES*/
 
 .container {
@@ -115,6 +132,7 @@ section h3 {
   color: #ffffff;
   border: none;
   border-radius: 15px;
+  cursor: pointer;
 }
 
 .flex {
