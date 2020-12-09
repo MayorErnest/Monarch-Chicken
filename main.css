@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+
+body {
+  background: #2a2727;
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #b4a195;
+}
+
+.active {
+  color: #ffffff;
+}
+
+.first-section {
+  background: #2a2727;
+  max-height: 100vh;
+}
+
+.first-section > div {
+  margin-top: 80px;
+}
+
+.first-section ul {
+  list-style-type: none;
+}
+
+.first-section > div li {
+  margin-bottom: 50px;
+  color: #2a2727;
+}
+
+.first-section > div li:nth-child(2) {
+  margin-left: -50px;
+}
+
+.first-section > div li:nth-child(3) {
+  margin-left: -70px;
+}
+
+.first-section > div li:nth-child(4) {
+  margin-left: -80px;
+}
+
+.first-section .container > *:first-child {
+  width: 45%;
+  font-size: 52px;
+  text-transform: uppercase;
+}
+
+.first-section .container > *:nth-child(2) {
+  margin-left: 100px;
+}
+
+.first-section .container > *:nth-child(2) img {
+  height: 350px;
+}
+
+.first-section button {
+  margin-left: 100px;
+}
+/*UTILITIES*/
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 40px;
+}
+
+.button {
+  padding: 10px 50px;
+  background: #ee0909;
+  color: #ffffff;
+  border: none;
+  border-radius: 15px;
+}
+
+.flex {
+  display: flex;
+  height: 100%;
+}
