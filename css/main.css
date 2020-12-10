@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 
 * {
   box-sizing: border-box;
@@ -15,6 +15,10 @@ body {
 a {
   text-decoration: none;
   color: #b4a195;
+}
+
+ul {
+  list-style: none;
 }
 
 section h3 {
@@ -166,6 +170,51 @@ section p {
 
 .services-section {
   margin-bottom: 50px;
+}
+
+.services-section article p {
+  text-align: left;
+}
+
+.carousel-slide {
+  display: flex;
+}
+
+footer {
+  padding-top: 10px;
+  padding-bottom: 60px;
+  background: #2a2727;
+  color: #ffffff;
+  font-size: 0.89rem;
+  font-weight: 400;
+}
+
+footer .flex {
+  justify-content: space-around;
+}
+
+.footer-a > *:nth-child(2) {
+  margin-left: 60px;
+}
+
+.footer-b .flex {
+  height: 0;
+}
+
+.footer ul {
+  margin-top: 30px;
+}
+
+.footer li {
+  margin-bottom: 20px;
+}
+
+.footer a {
+  color: #ffffff;
+}
+
+.footer-a ul {
+  margin-left: 30px;
 }
 /*UTILITIES*/
 
