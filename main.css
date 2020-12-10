@@ -33,6 +33,10 @@ section p {
   color: #ffffff;
 }
 
+.logo {
+  margin-top: 30px;
+}
+
 .first-section {
   background: #2a2727;
   min-height: 100vh;
@@ -55,16 +59,47 @@ section p {
   color: #2a2727;
 }
 
+.first-section > div li a:hover {
+  color: #ee0909;
+}
+
+.first-section > div li span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #ee0909;
+  border-radius: 100%;
+  margin-left: 18px;
+}
+
+.first-section > div li:nth-child(1) {
+  position: relative;
+  top: 12px;
+  left: 45px;
+}
+
 .first-section > div li:nth-child(2) {
-  margin-left: -50px;
+  position: relative;
+  top: 8px;
+  right: 43px;
 }
 
 .first-section > div li:nth-child(3) {
-  margin-left: -70px;
+  position: relative;
+  top: 10px;
+  right: 66px;
 }
 
 .first-section > div li:nth-child(4) {
-  margin-left: -80px;
+  position: relative;
+  top: 10px;
+  right: 100px;
+}
+
+.first-section > div li:nth-child(5) {
+  position: relative;
+  top: 30px;
+  right: -7px;
 }
 
 .first-section .container > *:first-child {
@@ -77,8 +112,19 @@ section p {
   margin-left: 100px;
 }
 
-.first-section .container > *:nth-child(2) img {
-  height: 350px;
+.first-section-nav {
+  min-height: 300px;
+  min-width: 300px;
+  border: 2px solid #ffffff;
+  border-radius: 100%;
+}
+
+.first-section-nav img {
+  position: relative;
+  left: 60px;
+  top: 40px;
+  max-height: 280px;
+  max-width: 280px;
 }
 
 .first-section button {
@@ -117,6 +163,10 @@ section p {
 .categories-section .flex {
   justify-content: center;
 }
+
+.services-section {
+  margin-bottom: 50px;
+}
 /*UTILITIES*/
 
 .container {
@@ -138,4 +188,11 @@ section p {
 .flex {
   display: flex;
   height: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 70px;
 }
