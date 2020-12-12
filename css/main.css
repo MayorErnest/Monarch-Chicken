@@ -140,6 +140,10 @@ section p {
   height: 500px;
 }
 
+.about-section .flex {
+  height: 100%;
+}
+
 .about-section article > *:first-child {
   display: flex;
   flex-direction: column;
@@ -180,9 +184,38 @@ section p {
   display: flex;
 }
 
+.contacts-section h3 {
+  margin-bottom: 40px;
+}
+
+.contacts-section > .flex {
+  justify-content: space-around;
+}
+
+.contacts-section h6 {
+  font-size: 0.98rem;
+}
+
+.contacts-section p {
+  font-weight: 400;
+  font-size: 0.88rem;
+  text-align: left;
+  line-height: 20pt;
+}
+
+.contacts-section a {
+  color: #2a2727;
+}
+
+.contacts-section a:nth-of-type(2),
+.contacts-section a:nth-of-type(3) {
+  margin-left: 15px;
+}
+
 footer {
   padding-top: 10px;
   padding-bottom: 60px;
+  margin-top: 85px;
   background: #2a2727;
   color: #ffffff;
   font-size: 0.89rem;
@@ -236,7 +269,6 @@ footer .flex {
 
 .flex {
   display: flex;
-  height: 100%;
 }
 
 .grid {
