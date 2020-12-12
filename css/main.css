@@ -133,6 +133,7 @@ section p {
 
 .first-section button {
   margin-left: 200px;
+  padding: 10px 50px;
 }
 
 .about-section {
@@ -184,6 +185,35 @@ section p {
   display: flex;
 }
 
+.in-touch-section {
+  background: #2a2727;
+}
+
+.in-touch-section h3,
+.in-touch-section p {
+  color: #ffffff;
+}
+
+.in-touch-section form {
+  margin-top: 80px;
+}
+
+.in-touch-section form input {
+  height: 50px;
+  width: 260px;
+  background: #2a2727;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  padding-left: 40px;
+}
+
+.in-touch-section form button {
+  width: 130px;
+  height: 50px;
+  margin-left: -60px;
+  border-radius: 25px;
+}
 .contacts-section h3 {
   margin-bottom: 40px;
 }
@@ -259,7 +289,6 @@ footer .flex {
 }
 
 .button {
-  padding: 10px 50px;
   background: #ee0909;
   color: #ffffff;
   border: none;
