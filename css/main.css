@@ -185,6 +185,21 @@ section p {
   display: flex;
 }
 
+.work-process-section {
+  padding: 90px 0;
+}
+
+.work-process-section .flex {
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.work-process-section h6 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 0.987rem;
+}
+
 .in-touch-section {
   background: #2a2727;
 }
