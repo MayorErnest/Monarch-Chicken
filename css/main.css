@@ -193,9 +193,13 @@ section p {
 }
 
 .carousel-slide {
-  display: flex;
+  justify-content: center;
 }
 
+.carousel-slide img {
+  height: 200px;
+  width: 200px;
+}
 .work-process-section {
   padding: 90px 0;
 }
@@ -407,5 +411,10 @@ footer .flex {
     width: 180px;
     height: 180px;
     margin: 0;
+  }
+
+  .carousel-slide {
+    flex-direction: column;
+    align-items: center;
   }
 }
